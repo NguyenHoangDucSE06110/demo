@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<!--  -->
+
+<body>
+
+    <div class="form">
+        <h1>TO DO LIST</h1>
+        <h3>title</h3>
+        <input type="text" id="content" placeholder="add new task">
+        <h3>description</h3>
+        <textarea name="" id="description"></textarea>
+        <div class="form-a">
+            <div>
+                <h3>due date</h3>
+                <input type="date" id="date">
+            </div>
+            <div class="fome-b">
+                <h3>piority</h3>
+                <select id="priority">
+                    <option value=”1” selected=”selected”>Normal</option>
+                    <option value=”2”>Low</option>
+                    <option value=”3”>High</option>
+                </select>
+            </div>
+        </div>
+        <p></p>
+      
+        <button>ADD</button>
+        <input type="text" id="search" placeholder="search">
+        <div id="list-task">
+        <h3>List task</h3>
+        <div id="result">
+            <p>No result</p>
+        </div>
+    </div>
+    </div>
+    <script src="./task.js"></script>
+</body>
+
+</html>
